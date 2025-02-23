@@ -9,7 +9,7 @@ import java.util.Calendar;
 public class InicioController {
 
 
-    private String version = "1.5";
+    private String version = "2.0";
     @GetMapping("/")
     public String comienzo(){
         Calendar calendario = Calendar.getInstance();
